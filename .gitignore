@@ -1,0 +1,9 @@
+.vagrant/
+Vagrantfile
+aws-cli_credentials.csv
+awx_aws_key
+db_aws_key
+id_rsa
+id_rsa.pub
+wp_aws_key
+hosts
