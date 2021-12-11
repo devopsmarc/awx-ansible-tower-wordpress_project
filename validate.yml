@@ -1,9 +1,9 @@
 ---
-
-- hosts: all
+# test with: ansible all -m command -a "ls /tmp" -i hosts
+- hosts: awx
   gather_facts: yes
   tasks:
-  - name: "Creating an empty file"
+  - name: "Create empty file"
     file:
       path: "/tmp/testawx"
       state: touch

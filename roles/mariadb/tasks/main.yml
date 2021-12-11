@@ -1,0 +1,18 @@
+---
+
+- name: "Installs MariaDB packages"
+  yum:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - 'mariadb-server'
+    - 'mariadb'
+    - 'MySQL-python'
+  when: ansible_facts['distribution'] == "CentOS"
+
+- name: "Enables MySql service, and doesnt touch state"
+  service:
+    name: mariadb
+    enabled: yes
+    state: started
+  when: ansible_facts['distribution'] == "CentOS"

@@ -1,0 +1,7 @@
+---
+
+- hosts: wp
+  become: yes
+  user: ubuntu
+  roles:
+    - wordpress

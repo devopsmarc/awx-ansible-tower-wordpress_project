@@ -1,0 +1,7 @@
+---
+dbpass: "@Marc3drx5030"
+http_port: 8080 
+dbhost: 3.134.90.65
+dbport: 3306
+dbuser: wp_user_01
+dbname: wp_db_prd

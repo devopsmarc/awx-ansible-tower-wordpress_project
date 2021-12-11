@@ -1,0 +1,10 @@
+---
+
+- hosts: db 
+  become: yes
+  user: centos
+  roles: 
+    - mariadb
+    - database
+
+    
