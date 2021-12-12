@@ -1,9 +1,0 @@
----
-# test with: ansible all -m command -a "ls /tmp" -i hosts
-- hosts: wp
-  gather_facts: yes
-  tasks:
-  - name: "Create empty file"
-    file:
-      path: "/tmp/awx-test"
-      state: touch
