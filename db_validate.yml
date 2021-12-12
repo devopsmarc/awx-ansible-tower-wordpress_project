@@ -5,5 +5,5 @@
   tasks:
   - name: "Create empty file"
     file:
-      path: "/tmp/validating"
+      path: "/tmp/awx-test"
       state: touch
