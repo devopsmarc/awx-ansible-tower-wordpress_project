@@ -1,0 +1,22 @@
+; [awx]
+; 3.12.51.216
+
+; [awx:vars]
+; ansible_user=ubuntu
+; ansible_ssh_private_key_file=/home/vagrant/.ssh/awx_aws_key
+; ansible_python_interpreter=/usr/bin/python3
+
+[wp]
+3.12.51.216
+
+[wp:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/vagrant/.ssh/awx_aws_key
+ansible_python_interpreter=/usr/bin/python3
+
+[db]
+3.140.213.112
+
+[db:vars]
+ansible_user=centos
+ansible_ssh_private_key_file=/home/vagrant/.ssh/db_aws_key
