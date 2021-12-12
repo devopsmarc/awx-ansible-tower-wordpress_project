@@ -1,6 +1,6 @@
 ---
 # test with: ansible all -m command -a "ls /tmp" -i hosts
-- hosts: all
+- hosts: db
   gather_facts: yes
   tasks:
   - name: "Create empty file"
