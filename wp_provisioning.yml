@@ -1,7 +1,8 @@
 ---
 
-- hosts: wp
+- hosts: awx
   become: yes
   user: ubuntu
   roles:
+    - awx_operator
     - wordpress
