@@ -1,6 +1,6 @@
 ---
 
-- hosts: all 
+- hosts: "34.227.14.44"
   become: yes
   user: centos
   roles: 
