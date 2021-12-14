@@ -1,6 +1,6 @@
 ---
 
-- hosts: "184.72.200.47"
+- hosts: all
   become: yes
   user: ubuntu
   roles:
