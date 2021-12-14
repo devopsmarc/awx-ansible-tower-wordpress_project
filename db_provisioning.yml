@@ -1,6 +1,6 @@
 ---
 
-- hosts: db 
+- hosts: all 
   become: yes
   user: centos
   roles: 

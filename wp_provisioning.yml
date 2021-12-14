@@ -1,6 +1,6 @@
 ---
 
-- hosts: awx
+- hosts: all
   become: yes
   user: ubuntu
   roles:
